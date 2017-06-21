@@ -1,0 +1,198 @@
+body{
+ background-color:black;
+  background-size: 100%;
+}
+
+#logo{
+background:yellow;
+margin-top:10px;
+width:100%;
+font-size: 40px;
+margin-bottom: 15px;
+text-align: center;
+}
+
+#header{
+
+	 text-align:justify;
+	 font-size: 40px;
+	 color: white;
+	 margin-left: 40px;
+
+}
+
+#header2{
+	 text-align:justify;
+	 font-size: 40px;
+	 color: white;
+	 margin-left: 40px;
+
+}
+
+/*All of the butty ids are buttons*/
+#butty1{
+	  padding: 15px 25px;
+	  font-size: 24px;
+	  text-align: center;
+	  cursor: pointer;
+	  outline: transparent;
+	  background-color:yellow;
+	  color: black;
+	  border: dashed;
+	  border-radius: 50px;
+	  box-shadow: 0 9px #999;
+	  margin-left: 20px;
+	  display: block;
+	  padding: 35px;
+}
+
+#butty1:hover {
+	  background-color: #000000;
+	  color: white;
+}
+
+#butty1:active {
+	  color: #fff;
+	  background-color: red;
+	  box-shadow:  9px #9843cd;
+	  transform: translateY(6px);
+	}
+
+
+#answers{
+ 	 height:35px;
+	 width: 100%;
+	 position: relative;
+	 background: yellow;
+	 color: black;
+	 border-style: solid;
+	 border-top-width: 35px;
+	 border-bottom-width: 40px;
+	 font-family: cursive;
+	 font-size: 30px;
+	 font-weight:bold;
+	 text-align:center;
+}
+
+.hidden{
+
+display:none;
+
+}
+
+
+#butty2{
+	 font-size: 20px;
+	 cursor: pointer;
+	 padding:10px 10px;
+	 text-transform: uppercase;
+	 outline: transparent;
+		background-color:yellow;
+		color: black;
+		border: dotted;
+		border-radius: 50px;
+}
+
+	/* note to self this makes it button flip and webkit etc. makes sure it works on other browsers */
+#butty2:active{
+		-ms-transform: rotate(360deg); 
+   -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+}
+
+#butty3{
+  font-size: 20px;
+	cursor: pointer;
+  padding:7px 4px;
+	text-transform: uppercase;
+	outline: transparent;
+	background-color:yellow;
+	color: black;
+	border: dashed;
+	border-radius: 50px;
+}
+
+#butty3:active{
+		-ms-transform: rotate(20deg); 
+   -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);
+}
+
+div#board{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	width: 550px;
+	height: 220px;
+	bottom: 312px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(yellow), to(black));
+	background-image: -webkit-linear-gradient(top, yellow, white);
+	background-image: -moz-linear-gradient(top, yellow, red);
+	background-image: linear-gradient(to bottom, yellow, black);
+	left: 450px;
+	border: 8px double yellow;
+	padding: 50px 10px 0px 10px; 
+  	margin:auto 0;
+		width: 550px;
+
+
+}
+
+@media screen and (min-width: 1025px) {
+
+#header{
+
+	 text-align:justify;
+	 font-size: 40px;
+	 color: white;
+	 /*margin-left: 40px;
+   margin-left:500px;*/
+	 text-align: center;
+}
+
+#header2{
+	 text-align:justify;
+	 font-size: 40px;
+	 color: white;
+	 /*margin-left: 40px;
+	 margin-left:920px;*/
+   text-align: center;
+}
+
+/*All of the butty ids are buttons*/
+#butty1{
+	  padding: 15px 25px;
+	  font-size: 24px;
+	  text-align: center;
+	  cursor: pointer;
+	  outline: transparent;
+	  background-color:yellow;
+	  color: black;
+	  border: dashed;
+	  border-radius: 50px;
+	  box-shadow: 0 9px #999;
+	  margin-left: 20px;
+	  display: block;
+	  padding: 35px;
+		margin:auto;
+}
+
+div#board{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	width: 100%;
+	height: 150px;
+	bottom: 312px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(yellow), to(black));
+	background-image: -webkit-linear-gradient(top, yellow, white);
+	background-image: -moz-linear-gradient(top, yellow, red);
+	background-image: linear-gradient(to bottom, yellow, black);
+	left: 450px;
+	border: 8px double yellow;
+	padding: 50px 10px 0px 10px; 
+}
+
+}
+
+
